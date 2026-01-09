@@ -50,13 +50,11 @@ Children:
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
-    Value: 2
   - Name: VerticalAlignment
     Id: g=378a2e20663b9d4f1b04146795ce8087
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
-    Value: 2
   - Name: MouseClickEventHandler1
     Id: g=efe698c5e1f9e5fb65f6a179849e65ec
     Type: EventHandler
@@ -211,11 +209,65 @@ Children:
     Type: BaseDataVariableType
     DataType: Int32
     Value: 250
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=275acd103e11160acf974d663fd3f0a3
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=8397e6ab12d20ffbd5f8d6af70f842e1
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "{0}+8"
+      - Name: ns=2;Source0
+        Id: g=51e49dfea1e8d448cca0a1830c3d9862
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=b8faef7f7700340777bf602624b1ccd9
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../LeftMargin"
   - Name: DialogBoxTopMargin
     Id: g=3e8d1960d87a661d2a38b5283b13e424
     Type: BaseDataVariableType
     DataType: Int32
     Value: 250
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=7881ab26e5a914a1c5245fa13d22778a
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=7e9bcb2a701c68f47480c8afafc56144
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        ModellingRule: Optional
+        Value: "{0}+8"
+      - Name: ns=2;Source0
+        Id: g=80cbab84680cb01a3c4df1bb5900efe5
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=c2e75dc38ef47f8fc4276071d272bb0d
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../TopMargin"
+  - Name: LeftMargin
+    Id: g=075624c8a3893038e3882f59a79b3574
+    Type: BaseVariableType
+    DataType: Size
+  - Name: TopMargin
+    Id: g=a5a542514ef72395c793c8b8cc5df402
+    Type: BaseVariableType
+    DataType: Size
 - Name: DialogBox1
   Id: g=4a06d90a6bcf3429e43a08f1732394ce
   Supertype: Dialog

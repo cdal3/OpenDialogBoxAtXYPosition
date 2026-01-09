@@ -319,420 +319,974 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/OpenDialogBoxAtXYPosition@BrowseName"
-  - Name: HorizontalLayout1
-    Id: g=ac8590a0b05ce35a696e8d61ab3ac7fd
-    Type: RowLayout
+  - Name: OpenDialogAtXYButton1
+    Id: g=d2b8a2d952af8893ba7d906779f3f196
+    Type: OpenDialogAtXYButton
     Children:
-    - Name: Width
-      Id: g=9b125790cee6e5671356141131d26af3
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: -1.0
-    - Name: Height
-      Id: g=4d44aa321a286f2a342f7498a4ef5c71
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: -1.0
-    - Name: HorizontalAlignment
-      Id: g=5dd69061e7f8b7db5232d53c8bf9f68c
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Id: g=7c45500b39f6ef208eca628964e762dc
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: HorizontalGap
-      Id: g=c54b5cd89fb15bcb6f9ac6238f4651cd
+    - Name: MouseClickEventHandler1
+      Id: g=ec89c03f4764d1294c6d6e0335de02cb
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=1165918d76df6d07b0bc548572aa6b75
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=450b539189f73d4f9d76cd0bc7cb59b6
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=dd27fe8772c2d5336e89a3e18dabea58
+          Type: BaseObjectType
+          Children:
+          - Name: ObjectPointer
+            Id: g=37603bd1808a8d753dc70851faa05b84
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Id: g=1321c12dbf61ae4dd192ea2e0b1eccdd
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: Method
+            Id: g=823edc1a2cea3e547d3c2e7bda7712eb
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=69e29bfbd415292ab8f03e3432bade82
+            Type: BaseObjectType
+            Children:
+            - Name: Dialog
+              Id: g=09e623e5c71006071bf71eb03033e78a
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
+            - Name: AliasNode
+              Id: g=084a18299149a36d4acd86d2b73c5049
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ValueRank: ScalarOrOneDimension
+              Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
+              Children:
+              - Name: DynamicLink_0
+                Id: g=ed76332e3f78ddc607e6707f4d91b5b1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxLeftMargin@NodeId"
+                Children:
+                - Name: ParentElementAccess
+                  Id: g=390f9efb5eb1f8a38062b1fa7d55d4f6
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [0],
+                     "FieldIndexes": []
+                    }
+                   }
+              - Name: DynamicLink_1
+                Id: g=47921a9b22fc2529b5a99ae23ae183de
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxTopMargin@NodeId"
+                Children:
+                - Name: ParentElementAccess
+                  Id: g=8a5d18bff311f56fa5f69fa563777523
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [1],
+                     "FieldIndexes": []
+                    }
+                   }
+            - Name: ParentItem
+              Id: g=0b531de29ba783ed1876374486d61168
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Children:
+              - Name: DynamicLink
+                Id: g=3514c3e0315671cee1284d7ee3ce62c0
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=b2a81f9d6eaf280033666bc095c88cb7
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Id: g=3ad411ccdc6bd359b2e6dd15d02e4d8f
+              Type: BaseDataVariableType
+              DataType: NodeId
+      - Name: EventArguments
+        Id: g=6f1764243c7b3936264daeab5e5b0557
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=81a4932b5014fd48a8ec89797b3ca9cd
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=246369dfb7a8d29c624d24519328e827
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=574cef0ed0a168d1e3b1c795cd32446d
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=d5e8a85f8d7838e712c3f256457c225b
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=9eb35a8992d0a049e992298c3bd3218d
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=324cebb57e0322c071d98778b3ba602d
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=6e8e2bd5d314636d2e16c01d3f95c4cb
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=cb8ce3f1c210d1b28d7cf23c01c3033e
+          Type: PropertyType
+          DataType: UInt16
+    - Name: DialogBoxLeftMargin
+      Id: g=3772803f25040ff7f4582969cc3b15a6
       Type: BaseDataVariableType
+      DataType: Int32
+      Value: 16
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=b7e6e9dada5282980d9b6bd9f08892b6
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=89a7341d7f082ff6de9a33a53965b3f9
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=e9e999637a2d33f7f40688641de9dd28
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../LeftMargin"
+    - Name: DialogBoxTopMargin
+      Id: g=d51c75f61409b3ebfd21e50f3036f011
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 16
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=2bc85a25880a4fbf643d85b9e13f4e47
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=588dcdc61c6d93ad18b0ce60f408c3cf
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=d382623cf6224ebe38ff92739f5bb97b
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../TopMargin"
+    - Name: Text
+      Id: g=5c14e4d0001599ea8efff6343a15c6c3
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=99271bd445f8511eb2651f44a9af6217
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=3d66eb3328e3dde18e4eb8095578c121
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=ecfa21bcceca485cf7b09a26331c1541
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxLeftMargin"
+        - Name: Source1
+          Id: g=4adda3a1452ce9daed4e3eff5b19b5e8
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=76cd4003aabb444e58a941b2ae58b9d7
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxTopMargin"
+    - Name: LeftMargin
+      Id: g=aa42963b3ff9a34531d57c19c8a3f45e
+      Type: BaseVariableType
+      DataType: Size
+      Value: 50.0
+    - Name: RightMargin
+      Id: g=1c835359e6d09a140085593f693241f6
+      Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 8.0
-    - Name: OpenDialogAtXYButton1
-      Id: g=d2b8a2d952af8893ba7d906779f3f196
-      Type: OpenDialogAtXYButton
+    - Name: TopMargin
+      Id: g=115b32ea5e31b97b752f313e20684b02
+      Type: BaseVariableType
+      DataType: Size
+      Value: 50.0
+    - Name: BottomMargin
+      Id: g=0eaafb36790e1d35cab033dd5310c360
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: OpenDialogAtXYButton2
+    Id: g=b704d0b8964e489a7ae2cd957574c65f
+    Type: OpenDialogAtXYButton
+    Children:
+    - Name: MouseClickEventHandler1
+      Id: g=17f1cb5458bd2cac79df93a703f99b69
+      Type: EventHandler
       Children:
-      - Name: MouseClickEventHandler1
-        Id: g=ec89c03f4764d1294c6d6e0335de02cb
-        Type: EventHandler
+      - Name: ListenEventType
+        Id: g=e3b8c3e5a49a61ed72566d0da4880ee6
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=6a936d554b14d6ad9507cb6937b0d267
+        Type: BaseObjectType
         Children:
-        - Name: ListenEventType
-          Id: g=1165918d76df6d07b0bc548572aa6b75
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-        - Name: MethodsToCall
-          Id: g=450b539189f73d4f9d76cd0bc7cb59b6
+        - Name: MethodContainer1
+          Id: g=c381c66432e351d4d708f06668f4a473
           Type: BaseObjectType
           Children:
-          - Name: MethodContainer1
-            Id: g=dd27fe8772c2d5336e89a3e18dabea58
+          - Name: ObjectPointer
+            Id: g=b27b8597eded26c17ef558396c0c0210
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Id: g=50469d09f70b7ff54aa76b071824d2f0
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: Method
+            Id: g=c812d6810b7c5de6299259e48af741d3
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=834156992baa78ad0b81e2fc203ce858
             Type: BaseObjectType
             Children:
-            - Name: ObjectPointer
-              Id: g=37603bd1808a8d753dc70851faa05b84
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/Commands/UICommands"
-              Children:
-              - Name: Kind
-                Id: g=1321c12dbf61ae4dd192ea2e0b1eccdd
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/ObjectTypes/BaseObjectType"
-            - Name: Method
-              Id: g=823edc1a2cea3e547d3c2e7bda7712eb
+            - Name: Dialog
+              Id: g=d12e19b1c52b9bc9f84e6b002c6e86c3
               Type: BaseDataVariableType
-              DataType: String
-              Value: "OpenDialog"
-            - Name: InputArguments
-              Id: g=69e29bfbd415292ab8f03e3432bade82
-              Type: BaseObjectType
+              DataType: NodeId
+              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
+            - Name: AliasNode
+              Id: g=13fd59fb88e32450c68d6936a1e0b5f8
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ValueRank: ScalarOrOneDimension
+              Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
               Children:
-              - Name: Dialog
-                Id: g=09e623e5c71006071bf71eb03033e78a
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
-              - Name: AliasNode
-                Id: g=084a18299149a36d4acd86d2b73c5049
-                Type: BaseDataVariableType
-                DataType: NodeId
-                ValueRank: ScalarOrOneDimension
-                Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
+              - Name: DynamicLink_0
+                Id: g=ed4761431c0e162c7cb3f75c3e4fd3c5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxLeftMargin@NodeId"
                 Children:
-                - Name: DynamicLink_0
-                  Id: g=ed76332e3f78ddc607e6707f4d91b5b1
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../DialogBoxLeftMargin@NodeId"
-                  Children:
-                  - Name: ParentElementAccess
-                    Id: g=390f9efb5eb1f8a38062b1fa7d55d4f6
-                    Type: BaseVariableType
-                    DataType: ElementAccess
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 313,
-                       "Namespace": 1
-                      },
-                      "Body": {
-                       "ArrayIndex": [0],
-                       "FieldIndexes": []
-                      }
-                     }
-                - Name: DynamicLink_1
-                  Id: g=47921a9b22fc2529b5a99ae23ae183de
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../DialogBoxTopMargin@NodeId"
-                  Children:
-                  - Name: ParentElementAccess
-                    Id: g=8a5d18bff311f56fa5f69fa563777523
-                    Type: BaseVariableType
-                    DataType: ElementAccess
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 313,
-                       "Namespace": 1
-                      },
-                      "Body": {
-                       "ArrayIndex": [1],
-                       "FieldIndexes": []
-                      }
-                     }
-              - Name: ParentItem
-                Id: g=0b531de29ba783ed1876374486d61168
-                Type: BaseDataVariableType
-                DataType: NodeId
+                - Name: ParentElementAccess
+                  Id: g=eb62ae17d865f692cf006077a3c1203e
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [0],
+                     "FieldIndexes": []
+                    }
+                   }
+              - Name: DynamicLink_1
+                Id: g=09627d9315c2ef4a41db8489aa16ffaf
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxTopMargin@NodeId"
                 Children:
-                - Name: DynamicLink
-                  Id: g=3514c3e0315671cee1284d7ee3ce62c0
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../..@NodeId"
-            - Name: OutputArguments
-              Id: g=b2a81f9d6eaf280033666bc095c88cb7
-              Type: BaseObjectType
+                - Name: ParentElementAccess
+                  Id: g=c86afd81b643be361c430f91b0a1cf42
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [1],
+                     "FieldIndexes": []
+                    }
+                   }
+            - Name: ParentItem
+              Id: g=7dfc52744d4c76dbf55ec028d23394b8
+              Type: BaseDataVariableType
+              DataType: NodeId
               Children:
-              - Name: DialogNodeId
-                Id: g=3ad411ccdc6bd359b2e6dd15d02e4d8f
-                Type: BaseDataVariableType
-                DataType: NodeId
-        - Name: EventArguments
-          Id: g=6f1764243c7b3936264daeab5e5b0557
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Id: g=81a4932b5014fd48a8ec89797b3ca9cd
-            Type: PropertyType
-            DataType: ByteString
-          - Name: EventType
-            Id: g=246369dfb7a8d29c624d24519328e827
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceNode
-            Id: g=574cef0ed0a168d1e3b1c795cd32446d
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceName
-            Id: g=d5e8a85f8d7838e712c3f256457c225b
-            Type: PropertyType
-            DataType: String
-          - Name: Time
-            Id: g=9eb35a8992d0a049e992298c3bd3218d
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: ReceiveTime
-            Id: g=324cebb57e0322c071d98778b3ba602d
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: Message
-            Id: g=6e8e2bd5d314636d2e16c01d3f95c4cb
-            Type: PropertyType
-            DataType: LocalizedText
-          - Name: Severity
-            Id: g=cb8ce3f1c210d1b28d7cf23c01c3033e
-            Type: PropertyType
-            DataType: UInt16
-      - Name: DialogBoxLeftMargin
-        Id: g=3772803f25040ff7f4582969cc3b15a6
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 16
-      - Name: DialogBoxTopMargin
-        Id: g=d51c75f61409b3ebfd21e50f3036f011
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 16
-      - Name: Text
-        Id: g=5c14e4d0001599ea8efff6343a15c6c3
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Children:
-        - Name: StringFormatter1
-          Id: g=99271bd445f8511eb2651f44a9af6217
-          Type: StringFormatter
-          Children:
-          - Name: Source0
-            Id: g=3d66eb3328e3dde18e4eb8095578c121
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
+              - Name: DynamicLink
+                Id: g=f6594631af7e08701aa4afb88fc856a1
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=3d6e4508c3450e7a11774e575241d098
+            Type: BaseObjectType
             Children:
-            - Name: DynamicLink
-              Id: g=ecfa21bcceca485cf7b09a26331c1541
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../DialogBoxLeftMargin"
-          - Name: Source1
-            Id: g=4adda3a1452ce9daed4e3eff5b19b5e8
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Id: g=76cd4003aabb444e58a941b2ae58b9d7
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../DialogBoxTopMargin"
-    - Name: OpenDialogAtXYButton2
-      Id: g=b704d0b8964e489a7ae2cd957574c65f
-      Type: OpenDialogAtXYButton
-      Children:
-      - Name: MouseClickEventHandler1
-        Id: g=17f1cb5458bd2cac79df93a703f99b69
-        Type: EventHandler
+            - Name: DialogNodeId
+              Id: g=0572577407f473b42866f14a48e5d01b
+              Type: BaseDataVariableType
+              DataType: NodeId
+      - Name: EventArguments
+        Id: g=ed0e838ac0e5e6a04e87c9c22f33c5a6
+        Type: MouseClickEvent
         Children:
-        - Name: ListenEventType
-          Id: g=e3b8c3e5a49a61ed72566d0da4880ee6
+        - Name: EventId
+          Id: g=1e8994e6abeda59828059bdbdadf41f0
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=d31449694325e720960d636cd54be224
           Type: PropertyType
           DataType: NodeId
-          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-        - Name: MethodsToCall
-          Id: g=6a936d554b14d6ad9507cb6937b0d267
+        - Name: SourceNode
+          Id: g=428da4d7a7abea2bfbe67843dbb843e1
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=3859ba465ed1215856b0a3e2f42d626e
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=cf97e9c1289ccbea73d21af3cbe955f4
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=e53d6304eda45d803f04ebda36747316
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=dfe43750029bf85bf8bffe7a21d1ecc8
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=61b6226b05dbf7d7d15804959b0013e2
+          Type: PropertyType
+          DataType: UInt16
+    - Name: DialogBoxLeftMargin
+      Id: g=a19edc557dbcf23a3d95d7fa3bc4fa0c
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=74b8e9b0d5c040daad9c7ad4eb1b7a2c
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=730d855d9dd03eb9d1cb04fccf85dd59
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=13ef9f1a0f58183449960c88aa919951
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../LeftMargin"
+    - Name: DialogBoxTopMargin
+      Id: g=2f6341183b4cdb32f80b48b5e97f7884
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=aa484bc07d7cc14176428f4aa7e00835
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=d9cd55e800cce4da09b465a1eec94db6
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=c47b6c03c7386f3fea8ad8e2eced0567
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../TopMargin"
+    - Name: Text
+      Id: g=1fad4c029e8bf058647a3fab1c9fd3a1
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=b0d5c5d7827431e86e276382af234de7
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=3d18c3f075263eaaae6d18addb6cc2d8
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=2d2ce4a5206d77e4d00351a859c8e05f
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxLeftMargin"
+        - Name: Source1
+          Id: g=69ccf8df03dbccd68b81aa52616e9d17
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=37b379b9ded67f833a3488d165c1d3e2
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxTopMargin"
+    - Name: LeftMargin
+      Id: g=2b3c4ccb9c85af43ba2fe8fd2f687055
+      Type: BaseVariableType
+      DataType: Size
+      Value: 1376.0
+    - Name: RightMargin
+      Id: g=50e6f07559f33e514b55609d69fad71d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=5b6a29cc2f775f7f3f3412349097d321
+      Type: BaseVariableType
+      DataType: Size
+      Value: 565.0
+    - Name: BottomMargin
+      Id: g=804ad051d7e23a1978b44a90eab9879b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: OpenDialogAtXYButton3
+    Id: g=f510117837e196abd847c6437b957cae
+    Type: OpenDialogAtXYButton
+    Children:
+    - Name: MouseClickEventHandler1
+      Id: g=6441f8b85abd49644269d1e7f3f917dc
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=4f5407d5214f988206cf324d8846cea5
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=5fbe9ee4a91bb85849e68f5047cad195
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=26ce19dd05d26ca41414e0371ebb03a9
           Type: BaseObjectType
           Children:
-          - Name: MethodContainer1
-            Id: g=c381c66432e351d4d708f06668f4a473
+          - Name: ObjectPointer
+            Id: g=96fc31134e2a300775c4e5793cfd2e21
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
+            Children:
+            - Name: Kind
+              Id: g=2766f7451b76be6b460883ae9ebcf383
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: Method
+            Id: g=f3e9808fd6932a8d2d891bad4af66b95
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=4400cffb40fb67bd23250790a6f1cf68
             Type: BaseObjectType
             Children:
-            - Name: ObjectPointer
-              Id: g=b27b8597eded26c17ef558396c0c0210
-              Type: NodePointer
-              DataType: NodeId
-              Value: "/Objects/Commands/UICommands"
-              Children:
-              - Name: Kind
-                Id: g=50469d09f70b7ff54aa76b071824d2f0
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/ObjectTypes/BaseObjectType"
-            - Name: Method
-              Id: g=c812d6810b7c5de6299259e48af741d3
+            - Name: Dialog
+              Id: g=6eb73a723d4ea085b870b664639e9620
               Type: BaseDataVariableType
-              DataType: String
-              Value: "OpenDialog"
-            - Name: InputArguments
-              Id: g=834156992baa78ad0b81e2fc203ce858
-              Type: BaseObjectType
+              DataType: NodeId
+              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
+            - Name: AliasNode
+              Id: g=0ac66f607af7e7df79fc57c183aa3f36
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ValueRank: ScalarOrOneDimension
+              Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
               Children:
-              - Name: Dialog
-                Id: g=d12e19b1c52b9bc9f84e6b002c6e86c3
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
-              - Name: AliasNode
-                Id: g=13fd59fb88e32450c68d6936a1e0b5f8
-                Type: BaseDataVariableType
-                DataType: NodeId
-                ValueRank: ScalarOrOneDimension
-                Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
+              - Name: DynamicLink_0
+                Id: g=58fb624dc32835b44ca4ae28e6a82b5e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxLeftMargin@NodeId"
                 Children:
-                - Name: DynamicLink_0
-                  Id: g=ed4761431c0e162c7cb3f75c3e4fd3c5
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../DialogBoxLeftMargin@NodeId"
-                  Children:
-                  - Name: ParentElementAccess
-                    Id: g=eb62ae17d865f692cf006077a3c1203e
-                    Type: BaseVariableType
-                    DataType: ElementAccess
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 313,
-                       "Namespace": 1
-                      },
-                      "Body": {
-                       "ArrayIndex": [0],
-                       "FieldIndexes": []
-                      }
-                     }
-                - Name: DynamicLink_1
-                  Id: g=09627d9315c2ef4a41db8489aa16ffaf
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../../DialogBoxTopMargin@NodeId"
-                  Children:
-                  - Name: ParentElementAccess
-                    Id: g=c86afd81b643be361c430f91b0a1cf42
-                    Type: BaseVariableType
-                    DataType: ElementAccess
-                    Value: 
-                     {
-                      "TypeId": {
-                       "Id": 313,
-                       "Namespace": 1
-                      },
-                      "Body": {
-                       "ArrayIndex": [1],
-                       "FieldIndexes": []
-                      }
-                     }
-              - Name: ParentItem
-                Id: g=7dfc52744d4c76dbf55ec028d23394b8
-                Type: BaseDataVariableType
-                DataType: NodeId
+                - Name: ParentElementAccess
+                  Id: g=20039611420925a1c3b89fae0cbde0ba
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [0],
+                     "FieldIndexes": []
+                    }
+                   }
+              - Name: DynamicLink_1
+                Id: g=797e89755dcd48b3605cb5911dcd362f
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxTopMargin@NodeId"
                 Children:
-                - Name: DynamicLink
-                  Id: g=f6594631af7e08701aa4afb88fc856a1
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../..@NodeId"
-            - Name: OutputArguments
-              Id: g=3d6e4508c3450e7a11774e575241d098
-              Type: BaseObjectType
+                - Name: ParentElementAccess
+                  Id: g=fd14160eefd14e10d53907dc8fdcf447
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [1],
+                     "FieldIndexes": []
+                    }
+                   }
+            - Name: ParentItem
+              Id: g=8adebe672c65ca3860721f71bb8a5c09
+              Type: BaseDataVariableType
+              DataType: NodeId
               Children:
-              - Name: DialogNodeId
-                Id: g=0572577407f473b42866f14a48e5d01b
-                Type: BaseDataVariableType
-                DataType: NodeId
-        - Name: EventArguments
-          Id: g=ed0e838ac0e5e6a04e87c9c22f33c5a6
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Id: g=1e8994e6abeda59828059bdbdadf41f0
-            Type: PropertyType
-            DataType: ByteString
-          - Name: EventType
-            Id: g=d31449694325e720960d636cd54be224
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceNode
-            Id: g=428da4d7a7abea2bfbe67843dbb843e1
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceName
-            Id: g=3859ba465ed1215856b0a3e2f42d626e
-            Type: PropertyType
-            DataType: String
-          - Name: Time
-            Id: g=cf97e9c1289ccbea73d21af3cbe955f4
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: ReceiveTime
-            Id: g=e53d6304eda45d803f04ebda36747316
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: Message
-            Id: g=dfe43750029bf85bf8bffe7a21d1ecc8
-            Type: PropertyType
-            DataType: LocalizedText
-          - Name: Severity
-            Id: g=61b6226b05dbf7d7d15804959b0013e2
-            Type: PropertyType
-            DataType: UInt16
-      - Name: DialogBoxLeftMargin
-        Id: g=a19edc557dbcf23a3d95d7fa3bc4fa0c
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 256
-      - Name: DialogBoxTopMargin
-        Id: g=2f6341183b4cdb32f80b48b5e97f7884
-        Type: BaseDataVariableType
-        DataType: Int32
-        Value: 256
-      - Name: Text
-        Id: g=1fad4c029e8bf058647a3fab1c9fd3a1
-        Type: BaseDataVariableType
-        DataType: LocalizedText
+              - Name: DynamicLink
+                Id: g=c2eff735080b46f22732fef89dd9ae89
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=99d229f5bb34a44b37fe968555049d74
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Id: g=90289ce99796fa51966ea3dc426cdc7a
+              Type: BaseDataVariableType
+              DataType: NodeId
+      - Name: EventArguments
+        Id: g=1a5c4f8a91193ec8895072bec1c8f547
+        Type: MouseClickEvent
         Children:
-        - Name: StringFormatter1
-          Id: g=b0d5c5d7827431e86e276382af234de7
-          Type: StringFormatter
+        - Name: EventId
+          Id: g=6d2694548e535c8344d7839511fe0d93
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=c791c7e98631d6c8cf398d89c68d7c20
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=1f89b58b72352fa34977d870b6f2ac6c
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=02f4cd660eb93fc9df79ff8204f59131
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=29f2247f143302bd11e8bc88d0dd9c0b
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=ac17ab35f28046bf9643e17cf29a1a7c
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=a452c6e1e1bf01624d81d6b78f526038
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=02565d15f9395bb4b8a7277048b4716a
+          Type: PropertyType
+          DataType: UInt16
+    - Name: DialogBoxLeftMargin
+      Id: g=1c58ab34e479651588d0b038849941b1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=41c241d2998ba99402a51a79ea9c8d92
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=160ad9cf12307b485179f8c0c06bfd69
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
           Children:
-          - Name: Source0
-            Id: g=3d18c3f075263eaaae6d18addb6cc2d8
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
+          - Name: DynamicLink
+            Id: g=9c842d66917f452a36435df615c79bec
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../LeftMargin"
+    - Name: DialogBoxTopMargin
+      Id: g=740bfc320dc4958d668ec0c1c172d897
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=eccf716068e3abb89d114110bd1a748b
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=d0e5a74640ec4ef1ca7e99a87865c590
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=1ace77e6b24a77101078277f4daa4aa2
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../TopMargin"
+    - Name: Text
+      Id: g=a60efc54d8069fec350c2f8bcf6a8242
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=d719eb38d6a2193050efe93b21b86618
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=b7fb5670c1201b37a8cddb59ba25a53f
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=25a8758e9f846b352a8d6720e2f9bad3
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxLeftMargin"
+        - Name: Source1
+          Id: g=918608e4a83d1144315379a1ae5fa784
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=b36d5a9fcab6c22936c19beb5cf9932a
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxTopMargin"
+    - Name: LeftMargin
+      Id: g=33daa648cf51646d2e5e51602f2fe33e
+      Type: BaseVariableType
+      DataType: Size
+      Value: 525.0
+    - Name: RightMargin
+      Id: g=9172026f25458ba032c061a8cdebdf27
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=3bff5784045ecffe0bd6fc027bf40c37
+      Type: BaseVariableType
+      DataType: Size
+      Value: 487.0
+    - Name: BottomMargin
+      Id: g=4de2386fb05b228cada0b677b092903e
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+  - Name: OpenDialogAtXYButton4
+    Id: g=8441b3e6a0a4dc3a40e15027f7825882
+    Type: OpenDialogAtXYButton
+    Children:
+    - Name: MouseClickEventHandler1
+      Id: g=6e1279dcebe6fd3b89df62fccf36c324
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=b3b345d4683fbc6fdaee8995143bfa46
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=da264e901e98b2bd6f213b82a0696f7b
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=cb552538f5e20ff2a16eed06e673a8a3
+          Type: BaseObjectType
+          Children:
+          - Name: ObjectPointer
+            Id: g=7a802226e803794013e3db3b085c9feb
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Commands/UICommands"
             Children:
-            - Name: DynamicLink
-              Id: g=2d2ce4a5206d77e4d00351a859c8e05f
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../DialogBoxLeftMargin"
-          - Name: Source1
-            Id: g=69ccf8df03dbccd68b81aa52616e9d17
+            - Name: Kind
+              Id: g=b1c4da136baeb10c4bf00429992f9c61
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: Method
+            Id: g=2bc0f5847da3a54e0545ea7511bfdb05
             Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
+            DataType: String
+            Value: "OpenDialog"
+          - Name: InputArguments
+            Id: g=bcabfb61b6702b540f190b30a51cd1d1
+            Type: BaseObjectType
             Children:
-            - Name: DynamicLink
-              Id: g=37b379b9ded67f833a3488d165c1d3e2
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../DialogBoxTopMargin"
+            - Name: Dialog
+              Id: g=1caaa28c587d366ee4497d2d71793e00
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox1"
+            - Name: AliasNode
+              Id: g=99aceb3957d4a158d6a91497ad0d90a3
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ValueRank: ScalarOrOneDimension
+              Value: [{"IdType":0,"Id":0,"Namespace":-1},{"IdType":0,"Id":0,"Namespace":-1}]
+              Children:
+              - Name: DynamicLink_0
+                Id: g=a7b48a5057d48f5f4b7413e880985c3e
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxLeftMargin@NodeId"
+                Children:
+                - Name: ParentElementAccess
+                  Id: g=6537d797948a90ffed1dfc2499abbc50
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [0],
+                     "FieldIndexes": []
+                    }
+                   }
+              - Name: DynamicLink_1
+                Id: g=07f28c9c478677453e6d41425d999d89
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../DialogBoxTopMargin@NodeId"
+                Children:
+                - Name: ParentElementAccess
+                  Id: g=258d9ef65dbfbb7d092964dd20e7d25f
+                  Type: BaseVariableType
+                  DataType: ElementAccess
+                  Value: 
+                   {
+                    "TypeId": {
+                     "Id": 313,
+                     "Namespace": 1
+                    },
+                    "Body": {
+                     "ArrayIndex": [1],
+                     "FieldIndexes": []
+                    }
+                   }
+            - Name: ParentItem
+              Id: g=82d7a436f69aae5bebb3956a60aae018
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Children:
+              - Name: DynamicLink
+                Id: g=2ca006ad8c8b4aa6e3be2c96bf72d371
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../..@NodeId"
+          - Name: OutputArguments
+            Id: g=54b6bc98ffbfb790b5727cfa57410d7c
+            Type: BaseObjectType
+            Children:
+            - Name: DialogNodeId
+              Id: g=171ee204b47a193c6ecb622a1fd8dbae
+              Type: BaseDataVariableType
+              DataType: NodeId
+      - Name: EventArguments
+        Id: g=2c45b49ee23375c5be799785daea23a9
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=384ce57c944fecf684001df368daceec
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=522171b8051155b1efa779a4043653c2
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=755bbce6490bf2a593a9bd97e8403252
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=05fe24de82cc76a67503568dee1ee41c
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=a06d6c0ac4b32ef89bbbb1dae53660c3
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=080f811a2cbbf2114f4efac06806d220
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=6fbd6216c41d2468c265549484cb10d0
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=557b7a156d1c6cd4a4601c3817621a57
+          Type: PropertyType
+          DataType: UInt16
+    - Name: DialogBoxLeftMargin
+      Id: g=1be28b747c951416a850e1b565c9028c
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=7ce25174d9756d31f28e29267e0074b3
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=1802fedc027c2433d7864e0a084a48bd
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=a71b50503a913660be03e2e1bc59db16
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../LeftMargin"
+    - Name: DialogBoxTopMargin
+      Id: g=e495d482292dffea4ea30728e1a7c9f0
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 256
+      Children:
+      - Name: ExpressionEvaluator1
+        Id: g=d753f39a36f06b9087c3932dc46beea4
+        Type: ExpressionEvaluator
+        Children:
+        - Name: Source0
+          Id: g=4d0ed1e2d799acf067f0b8d1b34ce881
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=8985b7dfa640e3bf5641aa048c0f6b3a
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../TopMargin"
+    - Name: Text
+      Id: g=8f232372761c474e0d86891a288c3384
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Children:
+      - Name: StringFormatter1
+        Id: g=3839fa53e7987e420eb17d3844537854
+        Type: StringFormatter
+        Children:
+        - Name: Source0
+          Id: g=0684f69ca8510841792dc8d2165a81ce
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=a2d5bcb58c7926f299e6aded538b6ef1
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxLeftMargin"
+        - Name: Source1
+          Id: g=e1dcd4e55fffaaab6f69bde82752ba87
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Id: g=4d50fbdfa992ff75763bcf3d042177cc
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../DialogBoxTopMargin"
+    - Name: LeftMargin
+      Id: g=e5a4ec7ab21e8372e87f50353d798036
+      Type: BaseVariableType
+      DataType: Size
+      Value: 1150.0
+    - Name: RightMargin
+      Id: g=1c1e9552d6ad08d7d7ef5680fbd04d89
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Id: g=80bc03189b2c94e873fb4724e4992157
+      Type: BaseVariableType
+      DataType: Size
+      Value: 214.0
+    - Name: BottomMargin
+      Id: g=1a4ea8b0b2a9cc4018c6df3fa68c3d63
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Dialogs/Dialogs.yaml
