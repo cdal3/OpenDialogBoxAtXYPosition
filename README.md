@@ -14,4 +14,4 @@ The following sample project can be opened with or without FacotoryTalk Optix St
 # Introduction
 The following sample project demonstrates how to open a DialogBox in the position of the calling button rather than a fixed location within a Window.
 
-[!OpenDialogBoxAtXYPositionGif](https://github.com/cdal3/OpenDialogBoxAtXYPosition/blob/main/OpenDialogBoxAtXYPosition.gif)
+![OpenDialogBoxAtXYPositionGif](https://github.com/cdal3/OpenDialogBoxAtXYPosition/blob/main/OpenDialogBoxAtXYPosition.gif)
