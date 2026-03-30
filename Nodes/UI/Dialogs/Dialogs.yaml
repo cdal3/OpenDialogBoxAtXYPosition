@@ -450,7 +450,7 @@ Children:
       Id: g=c6cc7dc887f03ebc70828bd81ad9b3e4
       Type: DynamicLink
       DataType: NodePath
-      Value: "../DialogBoxLeftMargin"
+      Value: "{DialogBoxLeftMargin}"
   - Name: TopMargin
     Id: g=3b3306a7962a5032e66c2003d5ffbf02
     Type: BaseVariableType
@@ -461,7 +461,7 @@ Children:
       Id: g=0f3ea56f77d08b3abcbfdb9a72488da8
       Type: DynamicLink
       DataType: NodePath
-      Value: "../DialogBoxTopMargin"
+      Value: "{DialogBoxTopMargin}"
   - Name: DialogBoxLeftMargin
     Id: g=50854cd95122a722f7430046e6ad6f7d
     Type: Alias

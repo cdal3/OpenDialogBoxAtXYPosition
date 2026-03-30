@@ -2,29 +2,30 @@ Project:
  Name: OpenDialogBoxAtXYPosition
  GUID: 3004e2d8844aad516fb2e8aae715eaa5
  ProjectNamespaceIndex: 7
+ DisplayName: ''
  Description: ''
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.6
- CoreVersion: 4.2
+ ProductVersion: 1.7
+ CoreVersion: 5.0
  Dependencies:
   2:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 5.0
+   Version: 6.1
   3:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 18.1
+   Version: 21.2
   4:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 7.1
+   Version: 9.0
   5:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
-   Version: 3.1
+   Version: 3.3
   6:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
@@ -32,12 +33,12 @@ Project:
   8:
    Uri: 'urn:FTOptix:OPCUAServer'
    Module: FTOptix.OPCUAServer
-   Version: 1.2
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 409
-  Objects: 130
+  TotalNodeCount: 411
+  Objects: 131
   ObjectTypes: 3
-  Variables: 276
+  Variables: 277
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
