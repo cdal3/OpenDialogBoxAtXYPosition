@@ -1,4 +1,5 @@
 Name: UI
+Id: g=054809eea2ef7b0139693248ef9b348a
 Type: UICategoryFolder
 Children:
 - Name: DefaultStyleSheet
@@ -6,707 +7,409 @@ Children:
   Type: StyleSheet
   Children:
   - Name: ButtonStyles
+    Id: g=66daf013bd230f13e9fae13bd4689214
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=3becc6d146fc0dcc16e517e9375c6fd9
       Type: ButtonStyle
     - Name: Accent
+      Id: g=27441d3721fe9d630a1ad3b315cc442a
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=0f5c408695a25602a7e29a8e22fd1b47
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: BorderColor
+        Id: g=96a394c31f5e3d75fca705094061e3b8
         Type: BaseDataVariableType
         DataType: Color
         Value: "#075982"
       - Name: TextColor
+        Id: g=9cfe4270f5b7e92c1350f9aa021833fe
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
     - Name: BorderedRectangular
+      Id: g=cdc752eb3b911f67fd3aabd716021caa
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=c638337c9daf889a0eff6337e6242120
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=b3acdad6da561593eeb31b4065ff66b3
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=72035b5109ac42e7bbe59ae67edf3495
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=7b2375348f0a256ef3c94fe44ed59326
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
     - Name: BorderedCircular
+      Id: g=345ff78e97e7730a929a24d3ee2d0f46
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=5d80db807846d879c7e1cadc0be2d04d
         Type: BaseDataVariableType
         DataType: Color
         Value: "#0fafff"
       - Name: TextColor
+        Id: g=75075ba8d46289231f38eaff484fe2cc
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=8be4f078c981ef47c254a890c626b54d
         Type: BaseDataVariableType
         DataType: Color
         Value: "#e4e4e4"
       - Name: BorderWidth
+        Id: g=e39a1547b4ea4421b54d0b2f8b3693e2
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=92e2fb510e31ed757c436884f083eb33
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Emergency
+      Id: g=90818db8bd74e28762ccd912a6d505b1
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=ab3f2439c6b7ae229c85bc60d3d8b587
         Type: BaseDataVariableType
         DataType: Color
         Value: "#eb001b"
       - Name: TextColor
+        Id: g=212dbb0563b2506d660c14c6abf3b5f3
         Type: BaseDataVariableType
         DataType: Color
         Value: "#ffffff"
       - Name: BorderColor
+        Id: g=5797f330a3474410f9a9bbed0d5a4958
         Type: BaseDataVariableType
         DataType: Color
         Value: "#f8e71c"
       - Name: BorderWidth
+        Id: g=25e4235fe24d432d75d5b86e0704ce52
         Type: BaseDataVariableType
         DataType: Size
         Value: 5.0
       - Name: Radius
+        Id: g=33ef4b23d96758d25442f4a00860fb1e
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
     - Name: Transparent
+      Id: g=7c56532df7ebd2c138b7774aab27ff5d
       Type: ButtonStyle
       Children:
       - Name: Color
+        Id: g=bf41a819bd70952dfbefc0fe86164042
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderColor
+        Id: g=0430fbc2189fc3c945eeb0436ddeb456
         Type: BaseDataVariableType
         DataType: Color
       - Name: BorderWidth
+        Id: g=f4b9e84109bfdc2e3d0c3a7cd633ad14
         Type: BaseDataVariableType
         DataType: Size
   - Name: InputBoxStyles
+    Id: g=ef67f26e0fd29456b99c635f2911d6d0
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=6d8f5844026a42f0a0ba6463a111ed97
       Type: InputBoxStyle
   - Name: SwitchStyles
+    Id: g=cb3eba0803d7f712a338cdca5dc301e2
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=d56f339b07ed460a7b617212e31d28b4
       Type: SwitchStyle
   - Name: GaugeStyles
+    Id: g=00df3c2870aa8b96223a50d680978ee5
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=8eee8f1829e09a8d3ca43448499758f9
       Type: GaugeStyle
   - Name: NavigationPanelStyles
+    Id: g=1a5fa14060637a019e82361c8499b3fa
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=787b0e894b416289666ecfcceffec398
       Type: NavigationPanelStyle
   - Name: ChartStyles
+    Id: g=dec78c5c915bebb74a553ad60ae4a759
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=5bdfa5490934f1c526f0dba805248b73
       Type: ChartStyle
   - Name: DataListStyles
+    Id: g=0fa2c743e83ed3a91a94281d10d7c4a3
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=a5056b4fd8fde50a279d4d71f3788fa5
       Type: DataListStyle
   - Name: ToolTipStyles
+    Id: g=068a7e1545f1de6eb93af8af893b4968
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=117ddd73f47c43aa32fe78a7208bbe39
       Type: ToolTipStyle
   - Name: ScrollBarStyles
+    Id: g=03e164d8e686cb2a1542c6c74af7d51b
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=26c8734ce4f315b4f4516ff0f0be4729
       Type: ScrollBarStyle
   - Name: AccordionStyles
+    Id: g=f7362f0244ea44d93299aee582e21983
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=edfaeebe49d1ee14982e81a479313843
       Type: AccordionStyle
   - Name: PieChartStyles
+    Id: g=17f609149f4605a1636fc5d84429de9c
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=70c4172c1b2b0d4531d15d0e8e6255b6
       Type: PieChartStyle
   - Name: HistogramChartStyles
+    Id: g=7a01bb014df95968b87970d681c93119
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=666ee32bfb7831320bef6a9c0d559fd6
       Type: HistogramChartStyle
   - Name: LabelStyles
+    Id: g=ebaa570a79ea6288501b0f6bfc7e1adc
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=460137f6e39a0ffdcdcc38726354531b
       Type: LabelStyle
   - Name: RadioButtonStyles
+    Id: g=349f6d4f80690ba760b6c19f37281910
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=9e1da074ce21d956f8b0f5ddc9dd4b84
       Type: RadioButtonStyle
   - Name: CheckBoxStyles
+    Id: g=3150758d386f3873e104412786ecd9af
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=3d89f1204be9ffdaf0b6a04e7c7ba3bc
       Type: CheckBoxStyle
   - Name: RectangleStyles
+    Id: g=933abc8ab91ff195b620dab6841701af
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=1b66c648bd4e6cdc89194b857c6aeea7
       Type: RectangleStyle
       Children:
       - Name: BorderThickness
+        Id: g=c9dd7b6e9cbba3d50c443985c1587cb1
         Type: BaseDataVariableType
         DataType: Size
         Value: 1.0
   - Name: ScreenStyles
+    Id: g=a66f1fc117e3f903f91c0820b9c8b284
     Type: BaseObjectType
     Children:
     - Name: Default
+      Id: g=f7d928578b1444c9d4eddd930d6cf5a8
       Type: ScreenStyle
 - Name: NativePresentationEngine
+  Id: g=5c0cacb71ae3f2f345372eba30e82902
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
   Children:
   - Name: VirtualKeyboard
+    Id: g=f82bc550b7a63b89e54530281b9afb30
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
   - Name: StartWindow
+    Id: g=d7594c91854e9102802a41fb38425336
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/OpenDialogBoxAtXYPosition/UI/MainWindow"
     Children:
     - Name: Kind
+      Id: g=f12c71d79d32b96c93301fae1fc8a69d
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
   - Name: StyleSheet
+    Id: g=74787705302eeb6e1d0edd7fd0165b59
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/OpenDialogBoxAtXYPosition/UI/DefaultStyleSheet"
     Children:
     - Name: Kind
+      Id: g=f2e86cb62b0ca1dbf570626b00a3a281
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
   - Name: StartingUser
+    Id: g=8042b099b7ad411d6ab129ac3dfbbea8
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Users/Anonymous"
     Children:
     - Name: Kind
+      Id: g=9c53e6553e0d557ae6e7eafc7ce57137
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
+    Id: g=a5bed1938fecadfc809f3c78a811832b
     Type: BaseObjectType
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
   Children:
   - Name: Width
+    Id: g=86d251f8fef45dc04c99485fd84db3a7
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1920.0
   - Name: Height
+    Id: g=89097ff2eba4cd4e14907a99553c202e
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 1080.0
   - Name: Caption
+    Id: g=52f52beb3cce766f505db69fed3496ba
     Type: BaseDataVariableType
     DataType: String
     Children:
     - Name: DynamicLink
+      Id: g=9574ded50b8cd35c51f1f41957a21305
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/OpenDialogBoxAtXYPosition@BrowseName"
-  - Name: OpenDialogAtXYButton1
-    Type: OpenDialogAtXYButton
+  - Name: NavigationPanel1
+    Id: g=49bf33f20ded80ee23dbddf3d8f64bd9
+    Type: NavigationPanel
     Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
+    - Name: Panels
+      Id: g=73128bb59272ce33188d98053f5980e2
+      Type: BaseObjectType
       Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
+      - Name: Panel1
+        Id: g=79bc7c0f9cbc01a5ce7fc38de0d9cac1
+        Type: NavigationPanelItem
         Children:
-        - Name: Source0
+        - Name: Title
+          Id: g=8e87d541d0ddf033309aac515b6a9c28
           Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=7492cf55420671c83008f2cbf3e964a9
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Screens/Option1"
           Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../LeftMargin"
-        - Name: Source1
+          - Name: Kind
+            Id: g=44a93c1e49fcd464354e8b2ee7f526be
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Panel2
+        Id: g=5ee5759d04c274041ceb4dcceaa5e5e7
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Id: g=c40afffaf68377a77295c5e2468acbf5
           Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
+          DataType: LocalizedText
+        - Name: Panel
+          Id: g=628739f2ab906af3262caaa01d07b7fe
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Screens/Option2"
           Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../TopMargin"
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
+          - Name: Kind
+            Id: g=af873929198c4b3599c7accca5e5416a
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+    - Name: CurrentPanel
+      Id: g=f23783088256e94a8d841d7f50668205
+      Type: NodePointer
+      DataType: NodeId
+      AccessLevel: Read
       Children:
-      - Name: ListenEventType
+      - Name: Kind
+        Id: g=abf40a975de37f00e3568fcd9006695e
         Type: PropertyType
         DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/UICommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "OpenDialog"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: Dialog
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox"
-            - Name: AliasNode
-              Type: BaseDataVariableType
-              DataType: NodeId
-              ValueRank: ScalarOrOneDimension
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-            - Name: ParentItem
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-          - Name: OutputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: DialogNodeId
-              Type: BaseDataVariableType
-              DataType: NodeId
-        - Name: MethodContainer2
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/VariableCommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Toggle"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: VariableToModify
-              Type: BaseDataVariableType
-              DataType: VariablePointer
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../Enabled@NodeId"
-            - Name: ArrayIndex
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ValueRank: ScalarOrOneDimension
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 152.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      Value: 163.0
-    - Name: Enabled
+        Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+    - Name: CurrentTabIndex
+      Id: g=48c522beb445a7a1d2483a9b1beab9a1
       Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-  - Name: OpenDialogAtXYButton2
-    Type: OpenDialogAtXYButton
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../LeftMargin"
-        - Name: Source1
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../TopMargin"
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/UICommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "OpenDialog"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: Dialog
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox"
-            - Name: AliasNode
-              Type: BaseDataVariableType
-              DataType: NodeId
-              ValueRank: ScalarOrOneDimension
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-            - Name: ParentItem
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-          - Name: OutputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: DialogNodeId
-              Type: BaseDataVariableType
-              DataType: NodeId
-        - Name: MethodContainer2
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/VariableCommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Toggle"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: VariableToModify
-              Type: BaseDataVariableType
-              DataType: VariablePointer
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../Enabled@NodeId"
-            - Name: ArrayIndex
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ValueRank: ScalarOrOneDimension
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-    - Name: LeftMargin
+      DataType: Int32
+    - Class: Reference
+      Target: ns=3;i=1181
+      Direction: Forward
+    - Class: Reference
+      Target: ns=3;i=1183
+      Direction: Forward
+    - Name: Width
+      Id: g=3838f319860de9b5aecec994bbd89f91
       Type: BaseVariableType
       DataType: Size
-      Value: 985.0
-    - Name: TopMargin
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Id: g=25d36752509a20679dd50d8240272a9d
       Type: BaseVariableType
       DataType: Size
-      Value: 398.0
-    - Name: Enabled
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-  - Name: OpenDialogAtXYButton3
-    Type: OpenDialogAtXYButton
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Children:
-      - Name: StringFormatter1
-        Type: StringFormatter
-        Children:
-        - Name: Source0
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../LeftMargin"
-        - Name: Source1
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../TopMargin"
-    - Name: MouseClickEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/UICommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "OpenDialog"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: Dialog
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Value: "/Objects/OpenDialogBoxAtXYPosition/UI/Dialogs/DialogBox"
-            - Name: AliasNode
-              Type: BaseDataVariableType
-              DataType: NodeId
-              ValueRank: ScalarOrOneDimension
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-            - Name: ParentItem
-              Type: BaseDataVariableType
-              DataType: NodeId
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../..@NodeId"
-          - Name: OutputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: DialogNodeId
-              Type: BaseDataVariableType
-              DataType: NodeId
-        - Name: MethodContainer2
-          Type: BaseObjectType
-          Children:
-          - Name: ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: "/Objects/Commands/VariableCommands"
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Toggle"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: VariableToModify
-              Type: BaseDataVariableType
-              DataType: VariablePointer
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../Enabled@NodeId"
-            - Name: ArrayIndex
-              Type: BaseDataVariableType
-              DataType: UInt32
-              ValueRank: ScalarOrOneDimension
-      - Name: EventArguments
-        Type: MouseClickEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-    - Name: LeftMargin
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: HorizontalAlignment
+      Id: g=083376343e1e61abf5e7ead88a93fd0b
       Type: BaseVariableType
-      DataType: Size
-      Value: 523.0
-    - Name: TopMargin
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Id: g=a9978cb66dd80f2480ca1ed0f04bc349
       Type: BaseVariableType
-      DataType: Size
-      Value: 572.0
-    - Name: Enabled
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Dialogs/Dialogs.yaml

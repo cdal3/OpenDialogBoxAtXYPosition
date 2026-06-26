@@ -1,51 +1,64 @@
 Name: OpenDialogBoxAtXYPosition
+Id: g=353af44915a0df2eaedf276e2e162202
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=d88401362c960df0cdf6bc14ba0043a4
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=32846b51c2657996dacd3acdc79b85ef
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
   - Name: LocaleFallbackList
+    Id: g=3b7f7b4284f5ae206d71b166ff3180a5
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=a65ef85b3c2260402cbf23b246f850b5
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=2c1c6a3db3e8c408bd7af3ae33b9a07a
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/OpenDialogBoxAtXYPosition/Security/Users"
     Children:
     - Name: Kind
+      Id: g=4cf097472f70bbaba18a31caa105cff0
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=0dd0927b67297136450ed73e1b9070d6
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=463e01bb756b72e6beb54e33ca0b099f
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=d327e29f5de2b09fbca85656a8e5f991
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=85d9265063f12d4ab46f9b1d3bb9dd3a
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=ba34068be44d553ebf25d1771d4a8d35
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=e4f3bf8cbc4bee82869e349a61b25c9c
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -64,4 +77,5 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RuntimeOptimization
+  Id: g=efdf6a2c3f899ddf00528ce04cdf4bdf
   Type: PropertyGroup

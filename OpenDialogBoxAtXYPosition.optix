@@ -30,15 +30,19 @@ Project:
    Uri: 'urn:FTOptix:Retentivity'
    Module: FTOptix.Retentivity
    Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 361
-  Objects: 123
-  ObjectTypes: 3
-  Variables: 235
+  TotalNodeCount: 607
+  Objects: 180
+  ObjectTypes: 7
+  Variables: 420
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 1
+  References: 9
   ReferenceTypes: 0
   Files: 23
  Nodes:
